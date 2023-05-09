@@ -1,5 +1,7 @@
+@import "../common/colors/colors.module.scss";
+
 .navcontent{
-    background-color: #c4c454;
+    background-color: $yellow-black;
     display: flex;
     padding-left: 2rem !important;
     gap: 2.5rem;
@@ -10,17 +12,17 @@
     text-decoration: none;
 }
 
-.menu-icon{
+.menu{
     display: block;
 }
 
-.material-symbols-outlined{
+.menu__icon{
     font-size: 28px;
     color: white;
 }
 
 @media (min-width: 768px) {
-    .menu-icon{
+    .menu{
         display: none;
     }
 }
