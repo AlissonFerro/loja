@@ -1,0 +1,26 @@
+.navcontent{
+    background-color: #c4c454;
+    display: flex;
+    padding-left: 2rem;
+    gap: 2.5rem;
+}
+
+.navLink{
+    color: white !important;
+    text-decoration: none;
+}
+
+.menu-icon{
+    display: block;
+}
+
+.material-symbols-outlined{
+    font-size: 28px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .menu-icon{
+        display: none;
+    }
+}
