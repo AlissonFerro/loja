@@ -1,7 +1,7 @@
 .navcontent{
     background-color: #c4c454;
     display: flex;
-    padding-left: 2rem;
+    padding-left: 2rem !important;
     gap: 2.5rem;
 }
 

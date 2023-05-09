@@ -39,6 +39,7 @@
 
 .content-products{
   display: flex;
+  place-content: center;
 }
 
 section {

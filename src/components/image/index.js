@@ -3,7 +3,7 @@ import './styles.css';
 
 export default function Image(){
     return (
-        <Col xs={11}   className='content'>
+        <Col xs={12}   className='content-col'>
             <div className='content-image'>
                 <img 
                     className="image" 

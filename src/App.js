@@ -10,13 +10,13 @@ function App() {
       <NavBar />
       <section>
         <Row className='content-products'>
-          <Col md={4} sm={6} xs={10}>
+          <Col md={4} sm={6} xs={12}>
             <Image />
           </Col>
-          <Col md={4} sm={6} xs={10}>
+          <Col md={4} sm={6} xs={12}>
             <Image />
           </Col>
-          <Col md={4} sm={6} xs={10}>
+          <Col md={4} sm={6} xs={12}>
             <Image />
           </Col>
         </Row>
