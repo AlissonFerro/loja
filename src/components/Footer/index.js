@@ -12,7 +12,7 @@ export default function Footer(){
             </p>
             <Row>
                 <Col className={styles.copyright}>
-                    <span class="material-symbols-outlined">
+                    <span className="material-symbols-outlined">
                         copyright
                     </span>
                 </Col>

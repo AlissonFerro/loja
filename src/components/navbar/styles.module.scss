@@ -7,6 +7,10 @@
     gap: 2.5rem;
 }
 
+.navcontent:hover{
+    transition: 1s;
+}
+
 .navLink{
     color: white !important;
     text-decoration: none;
@@ -16,13 +20,35 @@
     display: block;
 }
 
+.menuOpen{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menuClose{
+    display: none;
+}
+
 .menu__icon{
     font-size: 28px;
     color: white;
 }
 
+@media (max-width: 767px) {
+    .navcontent{
+        padding-right: 2rem;
+        justify-content: right;
+    }
+}
+
 @media (min-width: 768px) {
     .menu{
         display: none;
+    }
+
+    .menuClose{
+        display: flex;
+        gap: 2rem;
     }
 }
